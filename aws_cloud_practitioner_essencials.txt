@@ -1,0 +1,122 @@
+Servicios de AWS para empresas:
+
+* Soluciones de computación.
+* Almacenamiento.
+* Seguridad de red.
+* Blockchain
+* Machine Learning
+* Inteligencia Artificial.
+* Plataformas de desarrollo de robots.
+* Sistemas de administración de producción de video.
+* Satélites Orbitales que se pueden alquilar por minuto.
+
+MODELO BÁSICO DE COMPUTACIÓN EN LA NUBE
+
+la mayoría de centros de computación se centran en el MODELO BÁSICO CLIENTE - SERVIDOR.
+
+    CLIENTE:  puede ser cualquier navegador web o aplicación, con el cual un usario interactua, la cual realiza peticiones a un servidor informático.
+
+    SERVIDOR: un servidor es un lugar bien sea físico o en la nube, por ejemplo un servicio como Amazon Elastic Compute Cloud (EC2)que es un servidor virtual. en AWS el servidor virtual se llama Amazon Elastic Compute Cloud EC2.
+
+    El cliente hace una solicitud de cualquier tipo ( pide un artículo de noticias, la puntuación de un juego en línea o un vídeo divertido. ) -> el servidor evalua los detalles de esta petición, y con permisos, responde a esa solicitud devolviendo la información al cliente.
+
+    ** CONCEPTO CLAVE: la nociónd de que en AWS solo se paga por lo que se usa (por lo necesario). 
+        no se paga por anticipado y no existe preocupación por limitaciónes en la capacidad. cuando se necesita una instancia de 'x' servicio, se da un click y se adquiere y cuando no se necesita, se da otro click y desaparece y dejas de pagar por ellos.
+
+INFORMÁTICA EN LA NUBE: es la entrega bajo demanda de RECURSOS DE TI a través de internet con precios de pago por uso. el concepto bajo demanda, quiere decir que no deben ser solicitados con antelación, sino que, AWS tiene al rededor de 300 servicios integrales de centros de datos a nivel global, al alcance de un click para cuando se necesitan y así mismo se pueden devolver cuando no se necesitan. esta flexibilidad no es posible cuando se tienen centros de datos propios.
+
+    ** TRABAJO PESADO INTRASCENDENTE O INDIFERENCIADO DE TI: son tareas comunes y a menudo repetitivas que requieren de mucho tiempo. AWS simplifica esto, para que las empresas se centren en lo que los hace únicos que es por ejemplo sus modelos de información y sus know how, más no el hecho de contar con x o y tecnología.
+
+    TIPOS DE INFORMÁTICA EN LA NUBE (MODELOS DE SERVICIO):
+
+    Cada tipo de servicio en la nube y método de implementación le aporta distintos niveles de abstracción, control, flexibilidad, gestión y administración.
+
+        1. INFRAESTRUCTURA COMO SERVICIO (IaaS): permite acceder a las características de conexión en red, a los equipos (virtuales o en software dedicado) y al espacio de almacenamiento de datos. La infraestructura como servicio le ofrece el mayor nivel de flexibilidad y control de la administración en torno a sus recursos de TI y guarda el mayor parecido con los recursos de TI existentes con los que muchos departamentos de TI y desarrolladores están familiarizados.
+
+        2. PLATAFORMA COMO SERVICIO (PaaS): Las plataformas como servicio eliminan la necesidad de las compañías de administrar la infraestructura subyacente (normalmente hardware y sistemas operativos) y le permiten centrarse en la implementación y la administración de sus aplicaciones. Esto contribuye a mejorar su eficacia, pues no tiene que preocuparse del aprovisionamiento de recursos, la planificación de la capacidad, el mantenimiento de software, los parches ni ninguna de las demás arduas tareas que conlleva la ejecución de su aplicación.
+
+        3. SOFTWATE COMO SERVICIO (SaaS): le proporciona un producto completo que el proveedor del servicio ejecuta y administra. En la mayoría de los casos, quienes hablan de software como servicio en realidad se refieren a aplicaciones de usuario final. Con una oferta de SaaS, no tiene que pensar en cómo se mantiene el servicio ni en cómo se administra la infraestructura subyacente. Solo debe preocuparse por cómo utilizar ese sistema de software concreto
+
+    MODELOS DE IMPLEMENTACIÓN PARA INFORMÁTICA EN LA NUBE.
+
+        existen 3 modelos de implementación de informática en la nube:
+
+        * BASADOS EN LA NUBE: lanza todas  las partes de la aplicación en la nube. se pueden migrar aplizaciones ya existentes a la nube o crear una nueva directamente desde la nube. se pueden crear con infraestructura de bajo nivel, que requiera administración de un personal de TI, o pueden ser con insfraestructuras de nivel superior que involucre bases de datos, servidores virtuales, entre otros, qeu reduzcan la necesidad de administración, arquitectura y escalado.
+
+        * BASADOS EN LAS INSTALACIONES (IMPLEMENTACION DE NUBE PRIVADA): también se conoce como implementación de nube privada. en este modelo, los recursos se implementan en las instalaciones mediante herramientas de virtualización y administración de recursos para ayudar a aumentar la utilizacíon de los recursos.
+
+        * HÍBRIDOS: conecta recursos basados en la nube, con la infraestructura en las instalaciones.
+
+    BENEFICIOS DE LA INFORMÁTICA EN LA NUBE:
+
+        1. Pasar del gasto inicial al gasto variable: un gasto inicial hace referencia a la adquisición de hardware, servidores físicos que se requieren para implementar un centro de datos. el costo variable hace referencia a pagar por lo que se consume, por lo que permite optimizar los recursos.
+
+        2. Cero inversión en mantener y operar centros de datos: un centro de datos requiere un mantenimiento y administración, la informática en la nube permite que las empresas se centren en sus aplicaciones y en sus clientes.
+
+        3. No se requiere calcular capacidades (elasticidad): no se requiere predecir cuanta capaidad se requerirá para x o y proyectyo, en lugar de pagar por recursos que no estas utilizando o tener una capacidad limitada, la informática en la nube da versatilidad en este aspecto, pudiendo escalar horizontal o verticalmente de acuerdo con la demanda del cliente.
+
+        4. Arovechar las economías a escala: se traduce a precio de pago por uso inferiores, ya que al ser cientos de miles de usuarios que pueden acceder a este servicio, permite que los proveedores de estos servicios puedan lograr economías a escala y asi mismo transferir esos beneficios a sus clientes.
+
+        5. Aumentar la velocidad y la agilidad: la flexibilidad de la informática en la nube permite que se pueda desarrollar e innovar más fácilmente puesto que se puede acceder a nuevo recursos en cuestión de minutos.
+
+        6. Permite globalizarse en segundos: puesto que como Amazon es una compañá mundial, permite que clientes de todo el mundo interactuen entre si teniendo retrasos mínimos, ya que se reduce la latencia (suma de retrasos temprales en una red producido por la demora en la propagación y tramisión de paquetes en el internet) y se mejora la exoeruebcua,
+
+    SOBRE AWS:
+
+        * SEGURIDAD :
+        
+            Es el proveedor de informática en la nube más seguro, es compatible con 143 estandares de seguridad. los 117 servicios de almacenamiento ofrecen la capacidad de cifrar datos. cumple con los requisitos de seguridad del ejercito, bancos y entidades gubernamentales que requieren requisitos extrictos de confidencialidad.
+
+        * INFRAESTRUCTURA GLOBAL:
+
+            Está conformada por regiones AWS (ubicación geográfca física), las cuales a su vez están conformadas por zonas de disnponibilidad (AZ) que son uno o varios centros de datos individuales, cada uno de ellos con energía eléctrica, redes y conectividad suficientes, que se alojan en instalaciones independientes, esta infraestructura global permite la capacidad de operar aplicaciones de producción con un mejor nivel de disponibilidad, tolerancia a fallos y escalabilidad, de la que permite un centro único de datos.
+
+            AWS utiliza un modelo de responsabilidad compartida en la cual se dan dos aspectos: responsabilidad de la nube (por parte de AWS) y hace referencia a hacerse cargo de la seguridad de las infraestructuras fisicas y virtuales y responsabilidad en la nube (por parte del usuario) que hace referencia a que cada usaurio es responsable de realizar lso ajustes pertinentes para el mantenimiento de la seguridad de sus datos.
+
+
+        * HERRAMIENTAS PARA PROGRAMADORES.
+
+            Cuando se trabaja desarrollo de sdoftware ne la nube, la informa de interactuar con la infraestructura cambia, y se hace de manera lógica a través de la programación de aplicaciones de AWS (AWS API)
+
+            API (APPLICATION PROGRAMMING INTERFACE) - Interfaz de Programación de Aplicacionees un intermediario entre dos sistemas, un fragmento de código que permite a dos sistemas comuncarse entre si, interactuar y compartir información y funcionalidades.
+
+            * CONSOLA DE ADMINISTRACIÓN AWS - es una consola basada en la web a la que se accede a través de un navegador, permite seleccionar la región AWS en la que se desea utilizar un servicio de AWS. esta nos permite no tener que preocuparnos por lineas de comandos y sintaxts.
+
+            * AWS CLI (COMMAND LINE INTERFACE) - es un shell basado en un navegador. es una herramienta de código abierto que permite crear y configurar servicios de AWS mediante comandos de la shell, permite ejecutar comandos de IOS, Linux o Windows. está preautenticado con las credenciales de la consola, por lo que no requiere configuraciones locales.
+
+            * IDE - AWS soporta IDEs como  AWS Cloud9 , IntelliJ, PyCharm, Visual Studio, Visual Studio Code, Azure DevOps, Rider y WebStorm.
+
+            * SDK (SOFTWARE DEVELOPMENT KITS) son herramientas que permiten interactuas con las API mediante programación, incluye lenguajes como: Java, JAvascript, Python, Php, Rubi, Go, C++, .Net. son muy útiles cuando se quiere integrar el código fuente de una aplicación con los servicios de aws, proporcionando mucho más potencia y creatividad.
+
+        * INFRAESTRUCTURA COMO CÓDIGO (IaC):
+
+            AWS proporciona servicios que permiten la creación, el despliegue y el mantenimiento de la infraestructura de forma programática, descriptiva y declarativa.
+
+            * AWS CDK (CLOUD DEVELOPMENT KIT) - Es un marco de desarrollo de software para definir la infraestructura de la nube en código y aprovisionarla a través de AWS CloudFormation. admite lenguajes de programación conocidos, como TypeScript, JavaScript, Python, Java, C#/.Net y Go      
+
+            * AWS CLOUD FORMATION - ayuda a modelay y configurar recursos de AWS para que se pueda dedicar menos tiempo a la administración de estos recursos y centrarse más en las aplicaciones. CloudFormation puede ayudarlo a simplificar la administración de la infraestructura, replicarla rápidamente y controlar y rastrear fácilmente los cambios en su infraestructura.
+
+        * INFRAESTRUCTURA WELL-ARCHITECTED
+
+            Es un framework de AWS que permite a desarrolladores y arquitectos crear infraestructuras seguras, de alto rendimiento, eficientes. proporciona un mecanismo para evaluar regularmente las cargas de trabajo, identificar los problemas de alto riesgo y registrar las mejoras. se basa en 6 pilares:
+
+            1. Excelencia operativa:
+
+            2. Seguridad: confidencialidad e integridad de los datos, establecimiento de permisos a usaurios y detección de eventos de seguridad.
+
+            3. Fiabilidad:diseño de sistemas distribuidos, la planificación de la recuperación y cómo adaptarse a los requisitos cambiantes.
+
+            4. Eficiencia del rendimiento: la selección de los tipos y tamaños de recursos optimizados para los requisitos de la carga de trabajo, la supervisión del rendimiento y el mantenimiento de la eficiencia a medida que evolucionan las necesidades de la empresa
+
+            5. Optimización de costos: evitar gastos innecesarios. la comprensión del tiempo dedicado y el control de la asignación de fondos, la selección de recursos para el tipo y la cantidad adecuados y el escalado para cumplir con las necesidades de la empresa sin gastos excesivos.
+
+            9. Sostenibilidad:  la comprensión del impacto y la maximización del uso para minimizar los recursos necesarios y reducir los impactos posteriores.
+
+
+AMAZON ELASTIC CLOUD COMPUTING (EC2) - Servidor virtual de AWS.
+
+    SERVIDOR: Un servidor es un conjunto de computadoras capaces de atender las peticiones de un cliente y devolverle una respuesta en concordancia.
+
+
+
+
